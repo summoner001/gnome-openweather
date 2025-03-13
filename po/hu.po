@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gnome-shell-extension-openweather\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-18 09:26-0500\n"
-"PO-Revision-Date: 2025-03-13 16:54+0100\n"
+"PO-Revision-Date: 2025-03-13 17:20+0100\n"
 "Last-Translator: summoner <summoner@vivaldi.net>\n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -561,7 +561,7 @@ msgstr "Hőmérséklet a panelen"
 
 #: src/preferences/layoutPage.js:90
 msgid "Show the weather conditions in the panel"
-msgstr "Az időjárási körülmények megjelenítése a panelen"
+msgstr "Időjárási körülmények megjelenítése a panelen"
 
 #: src/preferences/layoutPage.js:94
 msgid "Conditions In Panel"
@@ -569,7 +569,7 @@ msgstr "Időjárási körülmények a panelen"
 
 #: src/preferences/layoutPage.js:102
 msgid "Show the time of sunrise/sunset in the panel."
-msgstr "A napkelte/napnyugta időpontjának megjelenítése a panelen."
+msgstr "Napkelte/napnyugta időpontjának megjelenítése a panelen."
 
 #: src/preferences/layoutPage.js:106
 msgid "Sunrise/Sunset In Panel"
@@ -992,7 +992,8 @@ msgstr "Szélirány nyilakkal"
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:89
 msgid "True to display wind direction through arrows rather than letters."
-msgstr "Szélirány nyilakkal való kijelzése szöveg helyett."
+msgstr ""
+"A bekapcsolásával a szél iránya nyilakkal lesz kijelezve a szöveg helyett."
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:94
 msgid "DEPRECATED, City to be displayed"
@@ -1008,11 +1009,11 @@ msgstr "OpenWeatherMap többnyelvű támogatás (csak az időjárás leírása)"
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:114
 msgid "True to show temperature in the panel"
-msgstr "Hőmérséklet megjelenítés a panelen"
+msgstr "A bekapcsolásával megjelenik a hőmérséklet a panelen"
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:118
 msgid "True to show conditions in the panel."
-msgstr "Időjárási körülmények megjelenítése a panelen."
+msgstr "A bekapcsolásával megjelennek az időjárási körülmények a panelen."
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:126
 msgid "Conditions in Forecast"
@@ -1118,19 +1119,19 @@ msgstr ""
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:218
 msgid "True to show the sunset/sunrise in the panel."
-msgstr "Napkelte/napnyugta megjelenítése a panelen."
+msgstr "A bekapcsolásával megjelenik a napkelte/napnyugta a panelen."
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:222
 msgid ""
 "True to show the sunset/sunrise in the panel before the temperature/"
 "conditions if enabled."
 msgstr ""
-"Napkelte/napnyugta megjelenítése a panelen a hőmérséklet/időjárási "
-"körülmények előtt."
+"A bekapcsolásával megjelenik a napkelte/napnyugta a panelen a hőmérséklet/"
+"időjárási körülmények előtt."
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:226
 msgid "False if this extension has never been initialized before."
-msgstr "Hamis, ha ez a kiterjesztés még soha nem volt előkészítve."
+msgstr "Ki van kapcsolva, ha ez a kiterjesztés még soha nem volt előkészítve."
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:230
 msgid "How often, in minutes, to re-fetch My Location if selected."
@@ -1140,7 +1141,9 @@ msgstr ""
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:234
 msgid "True to cut off the \"F\" or \"C\" after the degree symbol."
-msgstr "Az „F” és „C” mértékegység levágása a fokszimbólum után."
+msgstr ""
+"A bekapcsolásával az „F” és „C” mértékegységek le lesznek vágva a "
+"fokszimbólum után."
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:238
 msgid "Freezes the settings changed listener; user should not change this."
