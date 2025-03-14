@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gnome-shell-extension-openweather\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-18 09:26-0500\n"
-"PO-Revision-Date: 2025-03-13 17:20+0100\n"
+"PO-Revision-Date: 2025-03-14 16:47+0100\n"
 "Last-Translator: summoner <summoner@vivaldi.net>\n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -1030,7 +1030,7 @@ msgstr "A menüdoboz vízszintes elhelyezkedése."
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:142
 msgid "Refresh interval (actual weather)"
-msgstr "Frissítési gyakoriság (jelenlegi időjárás)"
+msgstr "Frissítési gyakoriság (tényleges időjárás)"
 
 #: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:146
 msgid "Maximum length of the location text"
